@@ -42,7 +42,7 @@ int main(void)
 		}
 		printf("\n");
 	}
-	printf("The multiplication product of matrix A and matrix B :\n");
+	printf("The multiplication product of matrix A and matrix B:\n");
 	
 	for (i=0; i<2; i++)
 	{
@@ -65,6 +65,7 @@ int main(void)
 	}
 	return 0;
 }
+
 
 
 
