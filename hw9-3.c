@@ -27,7 +27,7 @@ int main(void)
 	{
 		for (j=0; j<3; j++)
 		{
-			printf("%.1f ", a[i][j]);
+			printf("%g ", a[i][j]);
 		}
 		printf("\n");
 	}
@@ -38,7 +38,7 @@ int main(void)
 	{
 		for (j=0; j<2; j++)
 		{
-			printf("%.1f ", b[i][j]);
+			printf("%g ", b[i][j]);
 		}
 		printf("\n");
 	}
@@ -59,12 +59,13 @@ int main(void)
 	{
 		for (j=0; j<2; j++)
 		{
-			printf("%1f ", c[i][j]);
+			printf("%g ", c[i][j]);
 		}
 		printf("\n");
 	}
 	return 0;
 }
+
 
 
 
